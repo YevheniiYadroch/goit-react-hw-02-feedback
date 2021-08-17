@@ -43,7 +43,7 @@ class App extends Component {
     return (
       <div className="App">
         <Section title="Please leave feedback">
-          <FeedbackOptions options={['Bad', 'Neutral', 'Good']} onLeaveFeedback={this.btnClick}/>
+          <FeedbackOptions options={['Bad','Neutral','Good']} onLeaveFeedback={this.btnClick}/>
         </Section>
         <Section title="Statistics">
           {this.TotalCounter() === 0 ?

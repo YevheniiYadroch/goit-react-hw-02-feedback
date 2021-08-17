@@ -4,7 +4,7 @@ import './FeedbackOptions.css';
 class FeedbackOptions extends Component {
     render() {
         return (
-            <div>
+            <div className="Button__container">
                 {this.props.options.map(option => (
                     <button
                         className="Button"

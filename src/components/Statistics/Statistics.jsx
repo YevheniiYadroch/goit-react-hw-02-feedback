@@ -4,7 +4,7 @@ import './Statistics.css';
 class Statistics extends Component {
     render() {
         return(
-            <div>
+            <div className="Statistics">
                 <p>Good: {this.props.good }</p>
                 <p>Neutral: {this.props.neutral }</p>
                 <p>Bad: {this.props.bad }</p>
